@@ -1,3 +1,4 @@
+# encoding: utf-8
 require File.expand_path(File.dirname(__FILE__) + "/../spec_helper")
 
 describe Slugify do
@@ -336,7 +337,7 @@ describe Slugify do
       it "should replace them" do
         u = User.new(:name => "cinqüenta")
         u.generate_slug
-        u.slug.should == "cinquenta"
+        u.slug.should == "cinqenta"
       end
     end
 

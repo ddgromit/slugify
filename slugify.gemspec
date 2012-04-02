@@ -14,6 +14,4 @@ Gem::Specification.new do |s|
   s.files         = Dir['lib/*','lib/slugify/*']
   
   s.rubyforge_project = 'nowarning'
-  
-  s.add_dependency 'iconv', '>= 0.1'
 end
